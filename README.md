@@ -31,3 +31,25 @@ Open `index.html` or run `python -m http.server 8000` from this folder. No build
 ## Before publishing
 
 Confirm permission to disclose project names/results, SPOT final title, and KELIVI title and metrics. SPOT is marked accepted and its title follows the uploaded CV pending confirmation. DeepEval/RAGAS scores and the internal demo are omitted until confirmed. Personal phone number and original CV are not published. The conceptual workflow diagrams are not proprietary system diagrams.
+
+## V3: representative figures and KELIVI example
+
+Replace any PNG in `assets/publications/` with your approved paper figure using the same file name. The website will show it automatically. No HTML edits are needed. Three files (ML-GCN, SLU and Voice Translation) are clearly labelled placeholders. SPOT, NoDE and PARES contain figures from prior manuscript files, not verified against final publication versions. CASA, M-WAD and SwinProbeFormer use the supplied figures. Verify permission before public hosting.
+
+| Paper | Image file |
+|---|---|
+| SPOT | `assets/publications/spot.png` |
+| NoDE | `assets/publications/node.png` |
+| PARES | `assets/publications/pares.png` |
+| M-WAD | `assets/publications/m-wad.png` |
+| SwinProbeFormer | `assets/publications/swinprobeformer.png` |
+| CASA | `assets/publications/casa.png` |
+| ML-GCN | `assets/publications/ml-gcn.png` |
+| SLU | `assets/publications/slu.png` |
+| Voice Translation | `assets/publications/voice-translation.png` |
+
+The KELIVI screenshot is cropped and document URLs are redacted; confirm company approval before publishing.
+
+## V4: project visuals
+
+SK hynix visuals are cropped from pages 9–11 of the supplied TEL portfolio, which notes that illustrative/public data are used in place of confidential images. SEMICS uses the supplied architecture PDFs, anomaly score plot and monitoring photograph (selected identifiers obscured). Confirm company and publication permissions before publishing.
