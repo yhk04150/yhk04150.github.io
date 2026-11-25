@@ -53,3 +53,7 @@ The KELIVI screenshot is cropped and document URLs are redacted; confirm company
 ## V4: project visuals
 
 SK hynix visuals are cropped from pages 9–11 of the supplied TEL portfolio, which notes that illustrative/public data are used in place of confidential images. SEMICS uses the supplied architecture PDFs, anomaly score plot and monitoring photograph (selected identifiers obscured). Confirm company and publication permissions before publishing.
+
+## V5: academic background and credentials
+
+National R&D projects (KIAT / IITP) are separated from SK hynix industry–academia research and Microsoft AI School teaching. All seven CV awards and three patents are listed. Update an existing V4 site by uploading only `index.html` and `style.css` to the repository root.
