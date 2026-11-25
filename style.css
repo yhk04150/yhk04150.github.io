@@ -6,3 +6,15 @@
 
 /* V4: model and result figures */
 .project-preview{height:160px;object-fit:contain;background:white}.demo-figure a{display:block}.demo-figure img{max-height:720px;object-fit:contain}.pub-figure img{height:175px}@media(max-width:650px){.project-preview{height:190px}}
+
+/* V5: clearly separated education, funded research and credentials */
+.credentials-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px;align-items:start}
+.credentials-panel{padding:24px;border-top:3px solid #36728b;min-width:0}
+.credentials-panel h3{font-size:20px;margin:0 0 4px;color:#172a40;display:flex;align-items:center;justify-content:space-between;gap:10px}
+.panel-subtitle{font-size:13px;color:#586c7f;margin:0 0 12px}
+.credential-list{margin-top:8px}.credential{padding:16px 0;border-top:1px solid #e0e7ed}.credential:first-child{border-top:0;padding-top:9px}.credential:last-child{padding-bottom:0}
+.credential h4,.skill-group h4{font-size:15px;line-height:1.45;margin:6px 0 4px;color:#172a40}.credential p{font-size:14px;line-height:1.55;margin:4px 0;color:#43596e}.credential small{display:block;line-height:1.55;margin-top:5px}.credential .credential-role{font-weight:650;color:#285e78}
+.credential-date{font-size:12px;font-weight:650;color:#586c7f;display:block}.credential-meta{display:flex;align-items:center;gap:10px;flex-wrap:wrap}.agency{font-size:11px;font-weight:800;letter-spacing:.08em;color:#205571;background:#eaf2f7;border:1px solid #d4e3ed;padding:3px 8px;border-radius:5px}
+.credential-links{display:flex;gap:6px 15px;flex-wrap:wrap;margin-top:8px}.credential-links a{font-size:13px;font-weight:650}.skills-panel{margin-bottom:18px}.skill-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px 26px;margin-top:16px}.skill-group h4{margin:0 0 8px}.skill-tags{display:flex;gap:6px;flex-wrap:wrap}.skill-tags span{font-size:12px;line-height:1.4;padding:5px 9px;border:1px solid #dbe3eb;border-radius:5px;background:#f8fafc;color:#28445b}
+.count{font-size:13px;font-weight:650;color:#586c7f;letter-spacing:.08em}.patent-state{font-size:12px;color:#205571;font-weight:750}.patent-state.pending{color:#586c7f}.language-block{border-top:1px solid #e0e7ed;margin-top:24px;padding-top:20px}.language-block p{font-size:14px;margin:6px 0}.award-list h4{margin-top:4px}
+@media(max-width:800px){.credentials-grid{grid-template-columns:1fr}.credentials-panel{padding:20px}}@media(max-width:480px){.skill-grid{grid-template-columns:1fr}.credentials-panel{padding:18px}}
