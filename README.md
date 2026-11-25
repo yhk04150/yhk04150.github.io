@@ -28,32 +28,10 @@ For a project repository instead, use the URL displayed in Pages and update the 
 
 Open `index.html` or run `python -m http.server 8000` from this folder. No build or third-party dependencies required.
 
-## Before publishing
+## Research visuals and confidentiality
 
-Confirm permission to disclose project names/results, SPOT final title, and KELIVI title and metrics. SPOT is marked accepted and its title follows the uploaded CV pending confirmation. DeepEval/RAGAS scores and the internal demo are omitted until confirmed. Personal phone number and original CV are not published. The conceptual workflow diagrams are not proprietary system diagrams.
+Representative research figures are displayed alongside publications and project summaries. SK hynix illustrative SEM visuals use public data instead of proprietary fab imagery. Industrial data, internal source code, and non-public implementation details are not included.
 
-## V3: representative figures and KELIVI example
+## Publications and credentials
 
-Replace any PNG in `assets/publications/` with your approved paper figure using the same file name. The website will show it automatically. No HTML edits are needed. Three files (ML-GCN, SLU and Voice Translation) are clearly labelled placeholders. SPOT, NoDE and PARES contain figures from prior manuscript files, not verified against final publication versions. CASA, M-WAD and SwinProbeFormer use the supplied figures. Verify permission before public hosting.
-
-| Paper | Image file |
-|---|---|
-| SPOT | `assets/publications/spot.png` |
-| NoDE | `assets/publications/node.png` |
-| PARES | `assets/publications/pares.png` |
-| M-WAD | `assets/publications/m-wad.png` |
-| SwinProbeFormer | `assets/publications/swinprobeformer.png` |
-| CASA | `assets/publications/casa.png` |
-| ML-GCN | `assets/publications/ml-gcn.png` |
-| SLU | `assets/publications/slu.png` |
-| Voice Translation | `assets/publications/voice-translation.png` |
-
-The KELIVI screenshot is cropped and document URLs are redacted; confirm company approval before publishing.
-
-## V4: project visuals
-
-SK hynix visuals are cropped from pages 9–11 of the supplied TEL portfolio, which notes that illustrative/public data are used in place of confidential images. SEMICS uses the supplied architecture PDFs, anomaly score plot and monitoring photograph (selected identifiers obscured). Confirm company and publication permissions before publishing.
-
-## V5: academic background and credentials
-
-National R&D projects (KIAT / IITP) are separated from SK hynix industry–academia research and Microsoft AI School teaching. All seven CV awards and three patents are listed. Update an existing V4 site by uploading only `index.html` and `style.css` to the repository root.
+The website includes publications, academic background, national R&D projects, industry–academia research, teaching and mentoring, technical skills, awards, and patents.
